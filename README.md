@@ -1,69 +1,63 @@
-🌟 QueryNest – AI-Powered Question Answering
+# 🌟 **QueryNest**
 
-QueryNest is a modern AI assistant that lets users ask questions and receive intelligent answers based on online sources. Built with Flutter for the frontend and FastAPI + Gemini API for the backend, it uses a Retrieval-Augmented Generation (RAG) pipeline for accurate, contextual responses.
+> 💬 Your AI-Powered Question Answering Assistant
 
-✨ Perfect as a foundation for building more advanced AI-powered applications!
+**QueryNest** is a **smart, fast, and beautiful AI assistant** that answers your questions using online sources. Built with **Flutter** for a sleek UI and **FastAPI + Gemini AI** for the backend, it uses **Retrieval-Augmented Generation (RAG)** for context-aware responses.
 
-🚀 Features
+---
 
-❓ Ask questions and get AI-generated answers
+## 🎯 **Features**
 
-🌐 Retrieve information from multiple online sources
+✨ **Ask Anything** – Get intelligent answers from the web
+🌐 **Online Sources** – Retrieves relevant info in real-time
+🧠 **Smart Responses** – Powered by **Gemini LLM**
+🔍 **Cosine Similarity Search** – Finds the most relevant sources
+💬 **Real-Time Chat** – WebSocket streaming for live conversations
+📱 **Beautiful UI** – Flutter front-end with Markdown support
+⚡ **Responsive & Fast** – Works smoothly on mobile & desktop
 
-🧠 Contextual responses using Gemini LLM
+---
 
-🔍 Cosine similarity search for relevant information
+## 🛠️ **Tech Stack**
 
-💬 Real-time chat via WebSockets
+| **Frontend**        | **Backend**                       |
+| ------------------- | --------------------------------- |
+| Flutter & Dart      | FastAPI & Python                  |
+| WebSocket Streaming | Gemini AI LLM                     |
+| Markdown Rendering  | Cosine Similarity / Vector Search |
 
-📱 Sleek Flutter UI with Markdown support and loading skeletons
+---
 
-🌈 Responsive design for mobile and desktop
+##  **Why QueryNest?**
 
-🛠️ Tech Stack
-Frontend
+* **Fast ⚡** – Instant, real-time responses
+* **Smart 🧠** – Context-aware, reliable answers
+* **Beautiful 🎨** – Modern UI with sleek animations
+* **Expandable 🔧** – Easy to add new features and sources
 
-Flutter & Dart
+---
 
-WebSocket Streaming
+## 💡 **Future Enhancements**
 
-Markdown Rendering
+* 📚 **Local Vector DB** (ChromaDB / FAISS) for faster searches
+* 📝 **Chat History** – Keep track of past conversations
+* 📄 **Document Uploads** – Answer questions from PDFs & docs
+* 🔐 **User Authentication** – Multi-user support
+* ☁️ **Cloud Deployment** – Run anywhere: Render, Railway, GCP
 
-Backend
+---
 
-FastAPI & Python
+## 🏷️ **Badges**
 
-Gemini API for LLM responses
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge\&logo=flutter\&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge\&logo=fastapi\&logoColor=white)
+![Gemini AI](https://img.shields.io/badge/Gemini-AI-blue?style=for-the-badge)
 
-Cosine similarity / Vector search for RAG
+---
 
-Why QueryNest?
-
-QueryNest is designed to be:
-
-Fast ⚡ – Real-time responses
-
-Smart 🧠 – Context-aware answers
-
-Beautiful 🎨 – Modern UI with smooth animations
-
-Expandable 🔧 – Easy to integrate new features
-
-💡 Future Enhancements
-
-Add local vector database (ChromaDB / FAISS)
-
-Save chat history for context retention
-
-Support for PDF/document uploads for custom RAG
-
-Multi-user support with authentication
-
-Cloud deployment (Render, Railway, GCP, etc.)
-
-📸 Screenshots
-
-
-📄 License
+## 📄 **License**
 
 MIT License
+
+
