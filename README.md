@@ -47,12 +47,18 @@
 
 ---
 
-## 🏷️ **Badges**
+## 🏷️ **🌐 Official Resources**
 
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge\&logo=flutter\&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge\&logo=fastapi\&logoColor=white)
-![Gemini AI](https://img.shields.io/badge/Gemini-AI-blue?style=for-the-badge)
+
+
+Flutter: https://flutter.dev
+
+Dart: https://dart.dev
+
+FastAPI: https://fastapi.tiangolo.com
+
+Gemini AI: https://gemini.ai
+
 
 ---
 
