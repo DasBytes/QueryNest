@@ -1,55 +1,69 @@
+🌟 QueryNest – AI-Powered Question Answering
 
-# 🌐✨ **Quesy Nest – AI Answer Engine (Flutter + FastAPI + Gemini)** ✨🌐
+QueryNest is a modern AI assistant that lets users ask questions and receive intelligent answers based on online sources. Built with Flutter for the frontend and FastAPI + Gemini API for the backend, it uses a Retrieval-Augmented Generation (RAG) pipeline for accurate, contextual responses.
 
-A beautiful **Perplexity-style AI assistant** built with **Flutter**, powered by a **FastAPI backend** and **Gemini LLM**.
-Ask anything — get responses sourced from the web using a full **RAG (Retrieval-Augmented Generation)** pipeline.
+✨ Perfect as a foundation for building more advanced AI-powered applications!
 
----
+🚀 Features
 
-## ⚡🚀 **What This Project Delivers**
+❓ Ask questions and get AI-generated answers
 
-* 🤖 **AI-generated answers** powered by Gemini
-* 🌍 **Online source retrieval** + intelligent summarization
-* 📚 **RAG pipeline** with cosine similarity search
-* ⚡ **Real-time WebSocket streaming**
-* 📱 **Clean Flutter UI** with Markdown
-* 💡 **Lightweight, fast & beginner-friendly**
-* 🏗️ Great foundation for a full AI app like **Perplexity / ChatGPT / Gemini**
+🌐 Retrieve information from multiple online sources
 
----
+🧠 Contextual responses using Gemini LLM
 
-## 🧰🛠️ **Tech Stack**
+🔍 Cosine similarity search for relevant information
 
-### 🎨 **Frontend – Flutter**
+💬 Real-time chat via WebSockets
 
-* 🟦 Dart + Flutter
-* 🔌 WebSocket streaming
-* 📝 Markdown UI
-* 🎯 Clean modern UI
+📱 Sleek Flutter UI with Markdown support and loading skeletons
 
-### 🧪 **Backend – FastAPI**
+🌈 Responsive design for mobile and desktop
 
-* ⚡ FastAPI server
-* 🤖 Gemini API integration
-* 🔍 Cosine similarity search
-* 🧠 RAG logic with online retrieval
+🛠️ Tech Stack
+Frontend
 
----
+Flutter & Dart
 
-## 🎥 **About This Project**
+WebSocket Streaming
 
-This project walkthrough shows how to build a complete RAG application from scratch:
+Markdown Rendering
 
-* Building the Flutter UI
-* Setting up FastAPI
-* Searching online sources
-* Ranking sources with similarity
-* Generating answers with Gemini
-* Connecting WebSockets
-* Creating a beautiful chat UI
-* Running on Mobile
+Backend
 
-Perfect for students, developers, and AI beginners.
+FastAPI & Python
+
+Gemini API for LLM responses
+
+Cosine similarity / Vector search for RAG
+
+Why QueryNest?
+
+QueryNest is designed to be:
+
+Fast ⚡ – Real-time responses
+
+Smart 🧠 – Context-aware answers
+
+Beautiful 🎨 – Modern UI with smooth animations
+
+Expandable 🔧 – Easy to integrate new features
+
+💡 Future Enhancements
+
+Add local vector database (ChromaDB / FAISS)
+
+Save chat history for context retention
+
+Support for PDF/document uploads for custom RAG
+
+Multi-user support with authentication
+
+Cloud deployment (Render, Railway, GCP, etc.)
+
+📸 Screenshots
 
 
+📄 License
 
+MIT License
