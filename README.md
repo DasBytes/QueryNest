@@ -78,8 +78,6 @@ FastAPI: https://fastapi.tiangolo.com
 Gemini AI: https://gemini.ai
 
 
----
-
 ## 📄 **License**
 
 MIT License
