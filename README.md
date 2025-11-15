@@ -64,5 +64,3 @@ Gemini AI: https://gemini.ai
 
 MIT License
 
-
->>>>>>> 78e3fe55a943053f69aa9f433bafe3d8443f3208
