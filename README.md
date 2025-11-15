@@ -1,6 +1,3 @@
-Here is a **stunning**, colorful, emoji-rich **README.md** without timestamps — perfect for GitHub ✨🔥
-
----
 
 # 🌐✨ **Quesy Nest – AI Answer Engine (Flutter + FastAPI + Gemini)** ✨🌐
 
@@ -39,7 +36,7 @@ Ask anything — get responses sourced from the web using a full **RAG (Retrieva
 
 ---
 
-## 🎥 **About This Project Video**
+## 🎥 **About This Project**
 
 This project walkthrough shows how to build a complete RAG application from scratch:
 
@@ -50,7 +47,7 @@ This project walkthrough shows how to build a complete RAG application from scra
 * Generating answers with Gemini
 * Connecting WebSockets
 * Creating a beautiful chat UI
-* Running on both Web & Mobile
+* Running on Mobile
 
 Perfect for students, developers, and AI beginners.
 
