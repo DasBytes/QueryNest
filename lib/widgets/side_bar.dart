@@ -1,15 +1,24 @@
 import 'package:flutter/material.dart';
 import 'package:querynest/theme/colors.dart';
 
-class SideBar extends StatelessWidget {
+class SideBar extends StatefulWidget {
   const SideBar({super.key});
 
   @override
+  State<SideBar> createState() => _SideBarState();
+}
+
+class _SideBarState extends State<SideBar> {
+bool isCollapsed = true;
+
+  @override
   Widget build(BuildContext context) {
-    return Container(
-       width: 64,
+    return AnimatedContainer(
+       width: isCollapsed ? 64 : 128,
        color: AppColors.sideNav,
+       duration: const Duration(milliseconds: 100),
        child: Column(
+        crossAxisAlignment:  isCollapsed ? CrossAxisAlignment.center : CrossAxisAlignment.start,
         children: [
           const SizedBox(height: 16),
         
@@ -18,12 +27,23 @@ class SideBar extends StatelessWidget {
           size: 30,
           ),
           const SizedBox(height: 24),
-             Container(
-               margin: EdgeInsets.symmetric(vertical: 14),
-               child: Icon(Icons.add, 
-                         color: AppColors.iconGrey,
-                         size: 22,
-                         ),
+             Row(
+               children: [
+                 Container(
+                   margin: EdgeInsets.symmetric(vertical: 14, horizontal: 10),
+                   child: Icon(Icons.add, 
+                             color: AppColors.iconGrey,
+                             size: 22,
+                             ),
+                 ),
+                 Text(
+                  "Home",
+                  style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                  ),
+                 )
+               ],
              ),
            Container(
             margin: EdgeInsets.symmetric(vertical: 14),
@@ -34,7 +54,7 @@ class SideBar extends StatelessWidget {
            ),
 
            Container(
-            margin: EdgeInsets.symmetric(vertical: 14),
+            margin: EdgeInsets.symmetric(vertical: 14, horizontal: 10),
              child: Icon(Icons.language, 
                        color: AppColors.whiteColor,
                        size: 30,
@@ -49,12 +69,31 @@ class SideBar extends StatelessWidget {
                        ),
            ),
            Container(
-            margin: EdgeInsets.symmetric(vertical: 14),
-             child: Icon(Icons.keyboard_arrow_right, 
+            margin: EdgeInsets.symmetric(vertical: 14, horizontal: 10),
+             child: Icon(Icons.cloud_outlined, 
                        color: AppColors.whiteColor,
                        size: 30,
                        ),
            ),
+           const Spacer(),
+           GestureDetector(
+            onTap: () {
+             setState(() {
+              isCollapsed = !isCollapsed;
+             });
+              },
+             child: AnimatedContainer(
+              margin: EdgeInsets.symmetric(vertical: 14, horizontal: 10),
+               duration: const Duration(milliseconds: 100),
+               child: Icon( isCollapsed
+               ? Icons.keyboard_arrow_right 
+                : Icons.keyboard_arrow_left,
+                         color: AppColors.whiteColor,
+                         size: 30,
+                         ),
+             ),
+           ),
+           const SizedBox(height: 16),
         ],
        ),
 
