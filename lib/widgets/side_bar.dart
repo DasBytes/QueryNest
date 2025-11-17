@@ -28,6 +28,7 @@ bool isCollapsed = true;
           ),
           const SizedBox(height: 24),
              Row(
+              mainAxisAlignment: isCollapsed ? MainAxisAlignment.center :  MainAxisAlignment.start,
                children: [
                  Container(
                    margin: EdgeInsets.symmetric(vertical: 14, horizontal: 10),
@@ -36,17 +37,19 @@ bool isCollapsed = true;
                              size: 22,
                              ),
                  ),
+                 isCollapsed ? 
+                 const SizedBox() :
                  Text(
                   "Home",
                   style: TextStyle(
-                    fontSize: 20,
+                    fontSize: 18,
                     fontWeight: FontWeight.bold,
                   ),
                  )
                ],
              ),
            Container(
-            margin: EdgeInsets.symmetric(vertical: 14),
+            margin: EdgeInsets.symmetric(vertical: 14, horizontal: 10),
              child: Icon(Icons.search, 
                        color: AppColors.whiteColor,
                        size: 30,
@@ -62,7 +65,7 @@ bool isCollapsed = true;
            ),
 
            Container(
-            margin: EdgeInsets.symmetric(vertical: 14),
+            margin: EdgeInsets.symmetric(vertical: 14, horizontal: 10),
              child: Icon(Icons.auto_awesome, 
                        color: AppColors.whiteColor,
                        size: 30,
